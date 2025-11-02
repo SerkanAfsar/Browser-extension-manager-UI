@@ -98,8 +98,8 @@ li {
 }
 .wrapper {
   display: block;
-  width: 100%;
-  max-width: 85%;
+  width: 85%;
+  max-width: 1200px;
 
   margin: var(--space-1-5) auto;
   display: flex;
