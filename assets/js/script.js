@@ -2,7 +2,7 @@ const itemsWrapper = document.querySelector(".items");
 const menuList = document.querySelectorAll(".selection > header > ul > li > a");
 const theme = document.getElementById("theme");
 let items = [];
-let activeState = "Active";
+let activeState = "All";
 
 async function getData() {
   const response = await fetch("../assets/data/data.json");
