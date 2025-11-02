@@ -5,7 +5,7 @@ let items = [];
 let activeState = "Active";
 
 async function getData() {
-  const response = await fetch("../../data.json");
+  const response = await fetch("../assets/data/data.json");
   items = await response.json();
 }
 
